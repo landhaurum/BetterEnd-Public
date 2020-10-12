@@ -14,9 +14,12 @@ update:
    up-to-date: "Din version af BetterEnd (%s) er ajour!"
    more-recent: "Din version af BetterEnd (%s) er nyere end den der er offentligt tilgængelig."
    error: "Der opstod en fejl under tjek for en opdatering. Begrundelse: "
+command:
+   world: "&cDenne verden er ikke en BetterEnd verden!"
+   players-only: "&bDenne kommando er kun til spillere!"
+   invalid: "Ugyldig kommando. (Forventede %1$s argumenter, fandt %2$s)."
+   debug-only: "Denne kommando skal bruges med fejlfindingstilstand aktiveret!"
 commands:
-   for-players-only: "&bDenne kommando er kun til spillere!"
-   not-betterend-world: "&cDenne verden er ikke en BetterEnd verden!"
    no-permission: "&cDu har ikke tilladelse til denne kommando."
    version: "&bDenne server kører &3BetterEnd v%s"
    reload-config: "&bGenindlæser BetterEnd konfiguration..."
